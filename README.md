@@ -69,6 +69,17 @@ This project is licensed under the MIT License.
 - [Component Details](Docs/COMPONENTS.md)
 - [Pin Connections](Circuit/PIN_CONNECTIONS.md)
 
+## 📸 Project Gallery
+
+### Complete Hardware Setup
+![Complete Setup](Images/setup.png)
+
+### Sensor Connections
+![Sensor Connections](Images/connection.jpeg)
+
+### LCD Display
+![LCD Display](Images/lcddisplay.jpeg)
+
 ## Project Screenshots
 
 Hardware photographs and circuit diagrams will be added to the Images and Circuit folders.
@@ -79,6 +90,3 @@ Hardware photographs and circuit diagrams will be added to the Images and Circui
 - [x] Sensor integration
 - [x] LCD display integration
 - [x] Initial hardware testing
-- [ ] Sensor calibration
-- [ ] Final circuit diagram
-- [ ] Final hardware documentation
