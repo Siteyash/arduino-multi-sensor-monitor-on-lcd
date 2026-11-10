@@ -61,3 +61,24 @@ Electronics and Telecommunication Engineering Student
 License
 
 This project is licensed under the MIT License.
+
+
+## Project Documentation
+
+- [Project Documentation](Docs/PROJECT_DOCUMENTATION.md)
+- [Component Details](Docs/COMPONENTS.md)
+- [Pin Connections](Circuit/PIN_CONNECTIONS.md)
+
+## Project Screenshots
+
+Hardware photographs and circuit diagrams will be added to the Images and Circuit folders.
+
+## Current Development Status
+
+- [x] Arduino UNO setup
+- [x] Sensor integration
+- [x] LCD display integration
+- [x] Initial hardware testing
+- [ ] Sensor calibration
+- [ ] Final circuit diagram
+- [ ] Final hardware documentation
