@@ -80,6 +80,10 @@ This project is licensed under the MIT License.
 ### LCD Display
 ![LCD Display](Images/lcddisplay.jpeg)
 
+## Circuit Diagram
+
+![Arduino Multi-Sensor Circuit](Circuit/cidi.png)
+
 ## Project Screenshots
 
 Hardware photographs and circuit diagrams will be added to the Images and Circuit folders.
