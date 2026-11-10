@@ -1,96 +1,115 @@
-Arduino Multi-Sensor Monitoring System
 
-"Platform" (https://img.shields.io/badge/Platform-Arduino%20UNO-00979D)
-"Language" (https://img.shields.io/badge/Language-C%2B%2B-blue)
-"Status" (https://img.shields.io/badge/Status-In%20Progress-orange)
-"License" (https://img.shields.io/badge/License-MIT-green)
+# Arduino Multi-Sensor Monitoring System
 
-About the Project
+An Arduino-based multi-sensor monitoring project that integrates multiple sensors to collect real-time environmental and surrounding-condition data. The project demonstrates sensor interfacing, data acquisition, and embedded system development.
 
-The Arduino Multi-Sensor Monitoring System is an electronics project designed to interface multiple sensors with an Arduino UNO and monitor their readings.
+## Project Overview
 
-The system will collect sensor data and display useful information through a 16x2 I2C LCD.
+This project uses an Arduino microcontroller to interface with multiple sensors, collect sensor readings, and process the data. It is designed as a practical demonstration of embedded systems and electronics engineering.
 
-Hardware Components
+## Features
 
-- Arduino UNO
-- Ultrasonic Sensor
-- DHT11 Temperature and Humidity Sensor
-- IR Sensor
-- Soil Moisture Sensor
+- Multiple sensor integration
+- Real-time sensor data monitoring
+- Arduino-based control system
+- Modular hardware connections
+- Easy-to-understand implementation
+- Expandable architecture for future upgrades
+
+## Components Used
+
+- Arduino Uno
+- Capacitive Soil Moisture Sensor V2.0
 - MQ-2 Gas Sensor
-- IR Flame Sensor
-- 16x2 I2C LCD
-
-Planned Features
-
-- Multiple sensor interfacing
-- Real-time sensor monitoring
-- LCD-based data display
-- Sensor status indication
-- Integrated monitoring system
-
-Project Structure
-
-arduino-multi-sensor-monitor/
-├── Circuit/
-├── Docs/
-├── Images/
-├── Src/
-│   └── main.ino
-├── LICENSE
-└── README.md
-
-Development Status
-
-Currently in development. Sensors will first be tested individually and then integrated into one monitoring system.
-
-Learning Outcomes
-
-- Arduino programming
-- Sensor interfacing
-- Embedded C/C++
-- I2C communication
-- Hardware integration
-
-Author
-
-Yash Site
-Electronics and Telecommunication Engineering Student
-
-License
-
-This project is licensed under the MIT License.
-
-
-## Project Documentation
-
-- [Project Documentation](Docs/PROJECT_DOCUMENTATION.md)
-- [Component Details](Docs/COMPONENTS.md)
-- [Pin Connections](Circuit/PIN_CONNECTIONS.md)
-
-## 📸 Project Gallery
-
-### Complete Hardware Setup
-![Complete Setup](Images/setup.png)
-
-### Sensor Connections
-![Sensor Connections](Images/connection.jpeg)
-
-### LCD Display
-![LCD Display](Images/lcddisplay.jpeg)
+- Other interfaced sensors
+- Breadboard
+- Jumper wires
+- USB cable
+- External power supply (if required)
 
 ## Circuit Diagram
 
-![Arduino Multi-Sensor Circuit](Circuit/cidi.png)
+![Circuit Diagram](Circuit/vidi.png)
 
-## Project Screenshots
+## Repository Structure
 
-Hardware photographs and circuit diagrams will be added to the Images and Circuit folders.
+```text
+Arduino-Multi-Sensor-Project/
+│
+├── Arduino/
+│   ├── Arduino_Multi_Sensor.ino
+│   └── Libraries/
+│
+├── Circuit/
+│   └── cidi.png/PIN_CONNECTIONS.md
 
-## Current Development Status
+│
+├── Docs/
+│   ├── Project_Report.pdf
+│   └── Components_List.md
+│
+├── Images/
+│   ├── project_setup.jpg
+│   └── sensor_readings.jpg
+│
+├── Src/
+│   └── README.md
+│
+├── LICENSE
+└── README.md
+```
 
-- [x] Arduino UNO setup
-- [x] Sensor integration
-- [x] LCD display integration
-- [x] Initial hardware testing
+## Hardware Connections
+
+Refer to the circuit diagram for the complete wiring and pin connections.
+
+Make sure all sensors share a common GND with the Arduino.
+
+## Installation & Setup
+
+1. Install Arduino IDE.
+2. Connect Arduino Uno to your computer.
+3. Open the `.ino` file from the Arduino folder.
+4. Install the required sensor libraries.
+5. Select Arduino Uno from the Boards menu.
+6. Select the correct COM port.
+7. Upload the code.
+8. Open Serial Monitor to observe sensor readings.
+
+## Working Principle
+
+1. Sensors detect environmental conditions.
+2. Sensor outputs are transmitted to Arduino.
+3. Arduino processes the received values.
+4. The collected readings are displayed through the configured output.
+
+## Project Images
+
+Project photographs and hardware implementation images will be added to the Images folder.
+
+## Applications
+
+- Environmental monitoring
+- Smart agriculture
+- Gas leakage detection
+- Educational embedded systems projects
+- IoT-based monitoring development
+
+## Future Improvements
+
+- ESP8266/ESP32 integration
+- IoT-based remote monitoring
+- Mobile application integration
+- Cloud data storage
+- Automated alert system
+- Additional sensor integration
+
+## Author
+
+**Yash Site**
+
+Electronics and Telecommunication Engineering Student
+
+## License
+
+This project is licensed under the MIT License.
